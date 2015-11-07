@@ -4,14 +4,12 @@ custom-css - Chrome Extension
 Chrome拡張機能で閲覧サイトのCSSを追加する最小構成のテンプレート
 
 ## Usage
-
 * `extension/manifest.json`を開き、変更したい箇所を適当に変える。
     + 例えばTwitterだけのカスタムCSSを作成する場合は、`matches`の値を`https://twitter.com/*`などにする。
 * `extension/custom.css`の中身を適当なCSSで書く。
 * `extension`ディレクトリを拡張機能として読み込ませる。
 
 ## Install
-
 [chrome://extensions/](chrome://extensions/)より
 
 * `パッケージ化されていない拡張機能を読み込む...`
@@ -19,4 +17,4 @@ Chrome拡張機能で閲覧サイトのCSSを追加する最小構成のテン�
 * 完了
 
 ## Licence
-[<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAYAAABzyUiPAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3AwbFx8LqCEpiAAABFpJREFUWMPtmE9IVF8Uxz9vmuxhaGUFJQwDhjP9xQglIkI0oVW7ihaC0bpVREkoCBLlwn0tok1JC5EgCIrQSZAIwiYLpUWM1UyT2QwlM43Pee9+fwvz/bT8LUo3v6EDD94977xz7/28e88591mA+Ct/LEEA6V+G9+/fp6uri9HRUQDKy8vZt28fO3bsoKysjHQ6zevXr0mlUqxbt449e/ZQW1tLeXk5nz9/Znx8nEQiAYBlWZw7d44rV65QUVFRcvAsy+IHv3l5+fKljhw5oh+rUseOHdPdu3eVyWTkuq48z9P379/17NkzXb16Vbdu3dLU1JSKxaI8z1OhUNDY2JguX76sqqoqAbIsS93d3ZKkRCKhjRs3+v7/z5fmV518gMYYnT9/3jc4deqUxsfHJUmpVErJZFLJZFLGGEmS53k++K9fv/rPZ2ZmZIzRjRs3tGnTJgEKhUIaHh6WJJ05c6Y0Ab569UrhcFiAIpGIRkZGJEnDw8M6dOiQIpGITp48qXQ6rZ/l9u3bikQiikQiunjxojzPkzFG7e3tfocXLlyQJL148aI0Ad68eVOBQMCfrDFGxhh1dXX5L7W1tcl1XQ0NDam/v1/9/f3KZDKKxWKqrKwUoGg0qsnJSUlSPB73P0p9fb2mp6cXd/wng13SXk6W0/+s+y+/fzKmwEJAnJiYwBiDbdscPnwYy7IoFouMjY35QXPnzp3Mzc3R29vL6dOnOXv2LPF4nHA4zObNmwH4+PEjyWQSgGg0yq5duwD48OEDnz59WvUgvhDIF98vbi+nW5w0VyoBAM/z+PLlCwC2bbN9+3YA5ubmyGQyAKxZs4bq6moAisUiruviui4AlZWVbNiwAQDHcfj27RsAa9eupaqqCoBCoUAul1vRYH9n4pJ+sV/QLYa6KmVMIBBg/fr1ALiuSz6f96Et6I0xZLNZJFEoFJboHMfBcZx5h8Egtm37zxdsg8EgZWVlK4L3O6tnOUirCW4JQMuyqKmpwbIscrkco6OjNDc3Y9s2Bw4c4MGDB0hiYGCAd+/eEY/HAZidnaWvr4/BwUHevHkDQCgUIhwOAzA9Pc3bt28B2LJlC1u3bl1xzbXaW3DB10rgSpJisZhfozU3N/vZ9vnz5zp48KAfPC3LEqCmpiaFQqFfgmt3d7df6ly/fl3BYFCAWltbSzsL53I5nThxwjfo6OjwQTx+/FhtbW3avXu39u/fr0uXLun9+/e6c+eOjh8/rmg0qsbGRvX29spxHEnSkydP1NDQIEC2bauvr6+060BJunfvnrZt2zafngMBtbe3K5FIyBij2dlZpdNpTU1NKZ/PKxaLaWJiQjMzM0qlUspmszLGyHEcDQwMqLGxcUn5k8/nS/IkYv1o+Pu5p6eHzs5OisUiAA0NDbS0tLB3715s22ZycpKRkREePXpETU0NLS0t1NXVUVFRQTKZ5OnTpzx8+JBsNgvA0aNHuXbtGvX19SV5Frb+/o1ZmfwDhpepBt2ocrsAAAAASUVORK5CYII="/>](http://www.wtfpl.net/)
+[WTFPL](http://www.wtfpl.net/)
