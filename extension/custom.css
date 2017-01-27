@@ -1,4 +1,15 @@
-/* custom.css */
-html {
-  background: linear-gradient(#FFF, #333) !important;
+/* destroy promoted-tweet */
+.promoted,
+.promoted-tweet,
+.Footer-adsModule {
+  height: 0px !important;
+  min-height: 0px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Who to Follow も要らないよね */
+.wtf-module {
+  display: none !important;
 }
